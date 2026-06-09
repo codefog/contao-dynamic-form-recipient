@@ -2,7 +2,6 @@
 
 declare(strict_types=1);
 
-use Codefog\DynamicFormRecipientBundle\EventListener\ProcessFormDataListener;
 use Symfony\Component\DependencyInjection\Loader\Configurator\ContainerConfigurator;
 
 return static function (ContainerConfigurator $containerConfigurator): void {
@@ -15,6 +14,5 @@ return static function (ContainerConfigurator $containerConfigurator): void {
 
     $services
         ->load('Codefog\\DynamicFormRecipientBundle\\', __DIR__ . '/../src')
-        ->exclude(ProcessFormDataListener::class)
     ;
 };

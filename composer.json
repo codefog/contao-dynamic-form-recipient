@@ -23,8 +23,8 @@
     },
     "require": {
         "php": "^8.1",
-        "contao/core-bundle": "^4.13",
-        "terminal42/notification_center": "^1.6"
+        "contao/core-bundle": "^5.3",
+        "terminal42/notification_center": "^2.7"
     },
     "require-dev": {
         "contao/manager-plugin": "^2.0"
